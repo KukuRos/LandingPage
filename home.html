@@ -29,7 +29,7 @@
                 <div class="nav__menu">
                     <ul class="nav__list">
                         <li class="nav__item">
-                            <a href="#home" class="nav__link">
+                            <a href="#home" class="nav__link active-link">
                                 <i class="bx bx-home-alt-2"></i>     
                                 <span>Home</span>
                             </a>
@@ -58,6 +58,10 @@
                     </ul>
                 </div>
 
+                <!-- Theme change button -->
+                <i class='bx bx-moon change-theme' id="theme-button"></i>
+
+
                 <a href="https://reinoetereo.com/foro" class="button nav__button">
                     Visitanos
                 </a>
@@ -71,7 +75,7 @@
                 <div class="home__container container grid">
                     <div class="home__data">
                         <h1 class="home__title">
-                            Descubre <br> La Magia <br> De Reino Etéreo
+                            Descubre <br> La Magia de<br>  Reino Etéreo
                         </h1>
                         <p class="home__description">
                             Bienvenido a la leyenda de los cinco clanes
@@ -140,7 +144,7 @@
             </section>
 
             <!--==================== POPULAR ====================-->
-            <section class="popular section" id="popular">
+            <section class="popular section" id="clanes">
                 <div class="container">
                     <span class="section__subtitle">Elige tu clan</span>
                     <h2 class="section__title">
@@ -150,7 +154,7 @@
                     <div class="popular__container swiper">
                         <div class="swiper-wrapper">
                             <article class="popular__card swiper-slide">
-                                <img src="/assets/Principal/img/popular1.jpg" alt="" class="popular__img">
+                                <a href="https://reinoetereo.com/etzvaen"><img src="/assets/Principal/img/popular1.jpg" alt="" class="popular__img"></a>
 
                                 <div class="popular__data">
                                     <h2 class="popular__price">
@@ -166,7 +170,7 @@
                             </article>
 
                             <article class="popular__card swiper-slide">
-                                <img src="/assets/Principal/img/popular2.jpg" alt="" class="popular__img">
+                                <a href="https://reinoetereo.com/arameddan"><img src="/assets/Principal/img/popular2.jpg" alt="" class="popular__img"></a>
 
                                 <div class="popular__data">
                                     <h2 class="popular__price">
@@ -182,7 +186,7 @@
                             </article>
 
                             <article class="popular__card swiper-slide">
-                                <img src="/assets/Principal/img/popular3.jpg" alt="" class="popular__img">
+                                <a href="https://reinoetereo.com/tharagon"><img src="/assets/Principal/img/popular3.jpg" alt="" class="popular__img"></a>
 
                                 <div class="popular__data">
                                     <h2 class="popular__price">
@@ -198,7 +202,7 @@
                             </article>
 
                             <article class="popular__card swiper-slide">
-                                <img src="/assets/Principal/img/popular4.jpg" alt="" class="popular__img">
+                                <a href="https://reinoetereo.com/vrenneth"><img src="/assets/Principal/img/popular4.jpg" alt="" class="popular__img"></a>
 
                                 <div class="popular__data">
                                     <h2 class="popular__price">
@@ -214,7 +218,7 @@
                             </article>
 
                             <article class="popular__card swiper-slide">
-                                <img src="/assets/Principal/img/popular5.jpg" alt="" class="popular__img">
+                                <a href="https://reinoetereo.com/darglance"><img src="/assets/Principal/img/popular5.jpg" alt="" class="popular__img"></a>
 
                                 <div class="popular__data">
                                     <h2 class="popular__price">
@@ -230,7 +234,7 @@
                             </article>
 
                             <article class="popular__card swiper-slide">
-                                <img src="/assets/Principal/img/popular6.jpg" alt="" class="popular__img">
+                                <a href="https://reinoetereo.com/hail"><img src="/assets/Principal/img/popular6.jpg" alt="" class="popular__img"></a>
 
                                 <div class="popular__data">
                                     <h2 class="popular__price">
@@ -257,7 +261,7 @@
             </section>
 
             <!--==================== VALUE ====================-->
-            <section class="value section" id="value">
+            <section class="value section" id="discover">
                 <div class="value__container container grid">
                     <div class="value__images">
                         <div class="value__orbe"></div>
@@ -268,9 +272,9 @@
                     </div>
                     <div class="value__content">
                         <div class="value__data">
-                            <span class="section__subtitle">Descubre Reino Etéreo</span>
+                            <span class="section__subtitle">Sobre nosotros</span>
                             <h2 class="section__title">
-                                Value We Give To You<span>.</span>
+                                Descubre Reino Etéreo<span>.</span>
                             </h2>
                             <p class="value__description">
                                 Disfruta de lo que nuestra comunidad tiene para ofrecer
@@ -356,26 +360,223 @@
 
             <!--==================== CONTACT ====================-->
             <section class="contact section" id="contact">
-                
+                <div class="contact__container container grid">
+                    <div class="contact__images">
+                        <div class="contact__orbe"></div>
+
+                        <div class="contact__img">
+                            <img src="/assets/Principal/img/contact.jpg" alt="">
+                        </div>
+                    </div>
+
+                    <div class="contact__content">
+                        <div class="contact__data">
+                            <span class="section__subtitle">Conócenos</span>
+                            <h2 class="section__title">Nuestros Contactos</h2>
+                            <p class="contact__description">
+                                ¿Necesitas detalles del lore? ¿Una mano para crearte un personaje? cualquier duda o consulta será respondida a la brevedad, solo contactanos!
+                            </p>
+                        </div>
+
+                        <div class="contact__card">
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxs-message-square-dots' ></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Foro
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Consultas: Kurie
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <a href="https://reinoetereo.com/foro/memberlist.php?mode=team"><button class="button contact__card-button">
+                                    Entra
+                                </button></a>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxl-discord-alt' ></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Discord
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Chat General
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <a href="https://discord.gg/MVRhHQSVDx"><button class="button contact__card-button">
+                                    Entra
+                                </button></a>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxl-twitter' ></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            twitter
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Mensaje
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <a href="https://twitter.com/EtereoReino"><button class="button contact__card-button">
+                                    Entra
+                                </button></a>
+                            </div>
+
+                            <div class="contact__card-box">
+                                <div class="contact__card-info">
+                                    <i class='bx bxl-facebook-square' ></i>
+                                    <div>
+                                        <h3 class="contact__card-title">
+                                            Facebook
+                                        </h3>
+                                        <p class="contact__card-description">
+                                            Mensaje
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <a href="https://www.facebook.com/reinoetereo"><button class="button contact__card-button">
+                                    Entra
+                                </button></a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </section>
 
             <!--==================== SUBSCRIBE ====================-->
             <section class="subscribe section">
-                
+                <div class="subscribe__container container">
+                    <h1 class="subscribe__title">
+                        Comienza tu Travesía en Reino Etéreo
+                    </h1>
+                    <p class="subscribe__description">
+                        Regístrate y disfruta de las historias y los eventos que se llevan a cabo en nuestro foro.
+                    </p>
+                    <a href="https://reinoetereo.com/foro/ucp.php?mode=register" class="button subscribe__button">Inicia tu Aventura</a>
+                </div>
             </section>
         </main>
 
         <!--==================== FOOTER ====================-->
         <footer class="footer section">
-            
+            <div class="footer__container container grid">
+                <div>
+                    <a href="#" class="footer__logo">
+                        Reino Etéreo <i class='bx bxs-home-alt-2' ></i>
+                    </a>
+                    <p class="footer__description">
+                        12 años de trayectoria <br>
+                        12 años de amistad
+                    </p>
+                </div>
+
+                <div class="footer__content">
+                    <div>
+                        <h3 class="footer__title">
+                            Información
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Sobre nosotros</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Características</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Novedades</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Foro
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">Reglas</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Staff</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Sistema</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Soporte
+                        </h3>
+
+                        <ul class="footer__links">
+                            <li>
+                                <a href="#" class="footer__link">FAQs</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Guías</a>
+                            </li>
+                            <li>
+                                <a href="#" class="footer__link">Contacto</a>
+                            </li>
+                        </ul>
+                    </div>
+
+                    <div>
+                        <h3 class="footer__title">
+                            Síguenos
+                        </h3>
+
+                        <ul class="footer__social">
+                            <a href="https://www.facebook.com/reinoetereo" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-facebook-circle'></i>
+                            </a>
+                            <a href="https://twitter.com/EtereoReino" target="_blank" class="footer__social-link">
+                                <i class='bx bxl-twitter'></i>
+                            </a>
+                            <a href="" class="footer__social-link" target="_blank">
+                                <i class='bx bxl-whatsapp'></i>
+                            </a>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+
+            <div class="footer__info container">
+                <span class="footer__copy">
+                    &#169; ReinoEtereo. All rights reserved
+                </span>
+
+                <div class="footer__privacy">
+                    <a href="#">Terms & Agreements</a>
+                    <a href="#">Privacy Policy</a>
+                </div>
+            </div>
         </footer>
 
 
         <!--========== SCROLL UP ==========-->
-
+        <a href="#" class="scrollup" id="scroll-up">
+            <i class='bx bx-chevron-up'></i>
+        </a>
 
         <!--=============== SCROLLREVEAL ===============-->
-        <script src=""></script>
+        <script src="/assets/Principal/js/scrollreveal.min.js"></script>
 
         <!--=============== SWIPER JS ===============-->
         <script src="/assets/Principal/js/swiper-bundle.min.js"></script>
